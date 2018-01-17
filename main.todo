@@ -1,5 +1,40 @@
- ☐ Faturamento transportadora:remover os enpoints que buscam a transportadora e uar o da remessa
- ☐ Faturamento cliente: A estrutura soma e o cliente tb soma
- ☐ Consulta esta com limite de 50 (paginação)
- ☐ Cliente vem tudo marcado
- ☐ Faturamento cliente: quantidade
+Minuta:
+  ☐ Caso não tenha expedidor e receber colocar remetente e destinatário
+  ☐ Campo expedidor e receber não são obrigatório.
+  ☐ observação,nota fiscal é data da emissoa não são obrigatórios
+  ☐ Remover o db.connect 
+
+Faturamento:
+  ☐ Utilizar painel para o agrupamento interno dos accordions.
+  ☐ Diretiva editar campo esta com problema
+  ☐ (PRODUÇÃO) Voltar com as permissoes de editar em faturamento.(Grupos:DIRETORIA, MASTER, OPERACIONAL IV) 
+  ☐ Colocar um agurde no botão de gerar fatura e travar tudo
+
+Faturamento Cliente:
+  ☐ A estrutura soma e o cliente tb soma, fazer o sql trazer o total.
+  ☐ Consulta esta com limite de 50 (paginação).
+  ☐ Endpoint de consulta esta com "agregados", revisar o endpoint.
+  ☐ Cliente vem tudo marcado.
+  ☐ Na tela visualizar, a quantidade de registros esta vindo duplicado.
+  ☐ Remover a estrura antiga, e usar o serviço.
+
+Faturamento Fornecedor:
+  ☐ Quando gerar a fatura, ir para a impressão sintetica.
+  ☐ Na tela filtro mostrar auto complete com as naturezas, default todos.
+
+Faturamento Transportadora:
+  ☐ Remover os enpoints que buscam a transportadora e usar o da remessa.
+  ☐ Accordion: Ao invés de agrupar por cedente , agrupar por serviço.
+  ☐ Testar faturar mais de um cedente.
+  ☐ Utilizar a mesma ideia para buscar a localidade do prestador para gerar a localidade destino
+
+Faturamento impessão:
+  ☐ Criar uma interface para cada função do Helper, caso retorne vazio retorna para uma tela com erro.
+  ☐ Se nao retorna nenhuma linha, mostrar uma mensagem de erro também
+
+
+
+
+
+
+
