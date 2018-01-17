@@ -12,6 +12,7 @@ Faturamento:
   ☐ Verificar se o campo data vencimento esta buscando certo.
   ☐ Listagem de rota:onde esta regiona na vdd é cidade(descobrir onde ta isso)
   ☐ Tela filtro: Quando sai da tela filtro para visualizar (Console:Form submission canceled because the form is not connected)
+  ☐ Colocar o contrante da tela visualizar bloqueado(nao precisa usar o endpoint)
 
 Faturamento Cliente:
   ☐ A estrutura soma e o cliente tb soma, fazer o sql trazer o total.
@@ -25,6 +26,8 @@ Faturamento Cliente:
 Faturamento Fornecedor:
   ☐ Quando gerar a fatura, ir para a impressão sintetica.
   ☐ Na tela filtro mostrar auto complete com as naturezas, default todos.
+  ☐ Colocar commit e rollback na geração da fatura
+  ☐ Na geração da fatura colocar update in
 
 Faturamento Transportadora:
   ☐ Na tela visualizar quando editar coleta atualizar o total
