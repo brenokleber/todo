@@ -42,6 +42,18 @@ Faturamento impessão:
   ☐ Criar uma interface para cada função do Helper, caso retorne vazio retorna para uma tela com erro.
   ☐ Se nao retorna nenhuma linha, mostrar uma mensagem de erro também
 
+error:
+ ☐ Faturas com problema
+    80492680
+    80492700
+    80492701
+    80492193
+    80492428
+    80492922
+    80493174
+    80493323
+    80493132
+    80493169
 
 
 
