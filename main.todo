@@ -9,6 +9,9 @@ Faturamento:
   ☐ Diretiva editar campo esta com problema
   ☐ (PRODUÇÃO) Voltar com as permissoes de editar em faturamento.(Grupos:DIRETORIA, MASTER, OPERACIONAL IV) 
   ☐ Colocar um agurde no botão de gerar fatura e travar tudo
+  ☐ Verificar se o campo data vencimento esta buscando certo.
+  ☐ Listagem de rota:onde esta regiona na vdd é cidade(descobrir onde ta isso)
+  ☐ Tela filtro: Quando sai da tela filtro para visualizar (Console:Form submission canceled because the form is not connected)
 
 Faturamento Cliente:
   ☐ A estrutura soma e o cliente tb soma, fazer o sql trazer o total.
@@ -17,10 +20,14 @@ Faturamento Cliente:
   ☐ Cliente vem tudo marcado.
   ☐ Na tela visualizar, a quantidade de registros esta vindo duplicado.
   ☐ Remover a estrura antiga, e usar o serviço.
+  ☐ Crc com tarifario isento (colocar left join)
 
 Faturamento Fornecedor:
   ☐ Quando gerar a fatura, ir para a impressão sintetica.
   ☐ Na tela filtro mostrar auto complete com as naturezas, default todos.
+
+Faturamento Transportadora:
+  ☐ Na tela visualizar quando editar coleta atualizar o total
 
 Faturamento Transportadora:
   ☐ Remover os enpoints que buscam a transportadora e usar o da remessa.
