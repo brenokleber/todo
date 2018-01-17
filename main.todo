@@ -13,6 +13,7 @@ Faturamento:
   ☐ Listagem de rota:onde esta regiona na vdd é cidade(descobrir onde ta isso)
   ☐ Tela filtro: Quando sai da tela filtro para visualizar (Console:Form submission canceled because the form is not connected)
   ☐ Colocar o contrante da tela visualizar bloqueado(nao precisa usar o endpoint)
+  ☐ Simplificar o codigo de data em visualizar.js
 
 Faturamento Cliente:
   ☐ A estrutura soma e o cliente tb soma, fazer o sql trazer o total.
@@ -31,6 +32,7 @@ Faturamento Fornecedor:
 
 Faturamento Transportadora:
   ☐ Na tela visualizar quando editar coleta atualizar o total
+  ☐ Tem um neogcio de XML que o rafale falou que ia fazer
 
 Faturamento Transportadora:
   ☐ Remover os enpoints que buscam a transportadora e usar o da remessa.
