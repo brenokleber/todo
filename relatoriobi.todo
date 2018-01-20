@@ -1,9 +1,99 @@
 Relatorios:
-  ☐ Levantar todas as variaveis dos relatios e agrupa-los @prioridade alta
-  ☐ Levantar frameworks graficos que possuem suporte para ionic @prioridade baixa
+
+  ✔ Levantar todas as variaveis dos relatios. @prioridade alta @done (18-01-20 17:36)
+  ✔ Levantar frameworks graficos que possuem suporte para ionic - Angular-nvD3 @prioridade baixa @done (18-01-20 17:41)
+  ☐ Pesquisar grafico de venda , receita x custo, distribuição
+  ☐ MVP 
+    - Colocar D3 dentro do angular
+    - CUBO:Serviço especial (usuario escolhe as colunas)
+    - Grafico de barra 
+    - agrupar por qualquer coluna
+    - Criação da dashboard: https://www.youtube.com/watch?v=MF4-7oZYab0&t=2m45s
+    - Dashboard: http://wrapbootstrap.com/preview/WB0696K5S
+    - Fixar a quantidade de espaço para graficos
   ☐ Tela de login no ionic @prioridade baixa
   ☐ Socket para ter tempo rela no relatorios @prioridade baixa
+  ☐ Adicionar uma planilha para fazer o estudo E conexao com o shankya @prioridade baixa
+  ☐ Compartilhar relatorio @prioridade baixa
+  ☐ Ao adicionar o painel ele insere o tamanho @prioridade baixa
+  ☐ colocar painel com wysiwyg https://foxythemes.net/preview/products/amaretti-v1.4.1/form-wysiwyg.php @prioridade baixa
 
 
 
-  
+
+
+  Criação da dashboard: https://www.youtube.com/watch?v=MF4-7oZYab0&t=2m45s :
+    ☐ Colocar o link
+    ☐ Criar a estrutra com o grid
+
+
+  Levantar todas as variaveis dos relatios 1700 a 1728: 
+
+      Relatório analítico comparativo de vendas:
+        ☐ Igual ao sintetico: agrupa crc por tarifario
+
+      Relatório sintético comparativo de vendas:
+          ☐ CRC 
+            ☐ Origem
+            ☐ origem
+            ☐ volumes
+            ☐ peso real
+            ☐ peso taxado
+            ☐ valor do envio
+            ☐ serviço adicionais
+            ☐ total
+            ☐ custo transportadora
+            ☐ custo prestador de serviço
+            ☐ custo roterização
+          ☐ Rotas
+            ☐ Localidade
+            ☐ Rota
+            ☐ custo prestador de serviço
+            ☐ custo agregado
+            ☐ custo fornecedor
+          ☐ Serviços especias:
+            ☐ Localidade
+            ☐ custo prestador de serviço
+            ☐ custo fornecedor
+          ☐ Custos adicionais(Fornecedor)
+            ☐ Localidade
+            ☐ Nome
+            ☐ Valor
+          ☐ Distribuição de receitas x custos por localidade
+            ☐ localidade 
+            ☐ Vendas: CRC, Rotas,Serviços especiais
+            ☐ Custos: Transportadora, prestador de serviço, agregado , fornecedor, roteirização
+
+      Relatório consolidado comparativo de vendas:
+        ☐ Resumo do Relatório analítico comparativo de vendas
+
+      Relatório consolidado sintético de vendas:
+        ☐ Resumo do Relatório sintético comparativo de vendas
+
+      Relatório analítico/sintetico de vendas por localidade:
+          ☐ Igual ao relatório analítico comparativo de vendas sem o custo
+          ☐ CRC (agrupa por tarifario)
+            ☐ Origem
+            ☐ origem
+            ☐ volumes
+            ☐ peso real
+            ☐ peso taxado
+            ☐ valor do envio
+            ☐ serviço adicionais
+            ☐ total
+          ☐ Rotas
+            ☐ Localidade
+            ☐ Rota
+          ☐ Serviços especias:
+            ☐ Localidade
+          ☐ Custos adicionais(Fornecedor)
+            ☐ Localidade
+            ☐ Nome
+            ☐ Valor
+
+      Relatório analítico de vendas por localidade - CT-e:
+
+      Relatório analítico/sintético de vendas por participante:
+
+      Relatório analítico de vendas - CT-e SOL 2.0:
+

@@ -11,6 +11,8 @@ Faturamento:
   ☐ Colocar o contrante da tela visualizar bloqueado(nao precisa usar o endpoint)
   ☐ Simplificar o codigo de data em visualizar.js
   ☐ Buscar todos console.log
+  ☐ O menu de faturamento quando não tem nenhum aparece vazio(dashboard.js)
+
   
 Faturamento Cliente:
   ☐ A estrutura soma e o cliente tb soma, fazer o sql trazer o total.
