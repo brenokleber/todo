@@ -18,6 +18,7 @@ Relatorios:
     - Alguem inseriu um crc com preço errado? prestador errado?
     - Custo por cliente do carro
     - Cliente vem reclamar que ta muito caro() mostra o custo.
+    - Curva ABC
 Vantagen:
   -Unificação das bases de dados(shankya + sgf + sol)
   Prioridade Baixa(Deixar no layt para apresentar mesmo não funcionado):
