@@ -16,9 +16,14 @@ Relatorios:
   ☐ Depois de fazer o MVp pensar na apresentaçao e depois fazer
     - Alguem inseriu algo no mes passado(dataReg)? mandar um email 
     - Alguem inseriu um crc com preço errado? prestador errado?
-
+    - Custo por cliente do carro
+    - Cliente vem reclamar que ta muito caro() mostra o custo.
+Vantagen:
+  -Unificação das bases de dados(shankya + sgf + sol)
   Prioridade Baixa(Deixar no layt para apresentar mesmo não funcionado):
-
+  ☐ Ao clicar vai para o CRC 
+  ☐ ZOOM IN, ZOOM OUT 
+  ☐ Adicionar os filtros no relatorio(por exemplo transportadora)
   ☐ Tela com os relatorios da pessoa (amaretti email)
   ☐ compartilhar o relatorio
   ☐ Tela de login no ionic
@@ -33,8 +38,8 @@ Relatorios:
   ☐ Multiplos graficos em uma tela (http://krispo.github.io/angular-nvd3/#/lineChart)
   ☐ injetar o arquivo deletar.js
   ☐ SOMENTE O EULER TEM PERMISSAO PARA FAZER RELATORIO, APOS FAZER O RELATORIO MANDA PARA A PESSOA.
-
-
+  ☐ Colocar o options dentro do banco e quando for chamar ele, buscar do banco, assim e possivel fazer um parser nele
+  ☐ Exportar para excel
 
   Criação da dashboard: https://www.youtube.com/watch?v=MF4-7oZYab0&t=2m45s :
     ☐ Colocar o link
