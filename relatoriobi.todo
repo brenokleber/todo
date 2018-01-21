@@ -11,14 +11,28 @@ Relatorios:
     - Criação da dashboard: https://www.youtube.com/watch?v=MF4-7oZYab0&t=2m45s
     - Dashboard: http://wrapbootstrap.com/preview/WB0696K5S
     - Fixar a quantidade de espaço para graficos
-  ☐ Tela de login no ionic @prioridade baixa
-  ☐ Socket para ter tempo rela no relatorios @prioridade baixa
-  ☐ Adicionar uma planilha para fazer o estudo E conexao com o shankya @prioridade baixa
-  ☐ Compartilhar relatorio @prioridade baixa
-  ☐ Ao adicionar o painel ele insere o tamanho @prioridade baixa
-  ☐ colocar painel com wysiwyg https://foxythemes.net/preview/products/amaretti-v1.4.1/form-wysiwyg.php @prioridade baixa
+    - Colocar a mudança de escopo de serviço especial
+    - D3 bib :http://krispo.github.io/angular-nvd3/#/quickstart
+  ☐ Depois de fazer o MVp pensar na apresentaçao e depois fazer
+    - Alguem inseriu algo no mes passado(dataReg)? mandar um email 
+    - Alguem inseriu um crc com preço errado? prestador errado?
 
+  Prioridade Baixa(Deixar no layt para apresentar mesmo não funcionado):
 
+  ☐ Tela com os relatorios da pessoa (amaretti email)
+  ☐ compartilhar o relatorio
+  ☐ Tela de login no ionic
+  ☐ Socket para ter tempo rela no relatorios 
+  ☐ Adicionar uma planilha para fazer o estudo E conexao com o shankya 
+  ☐ Compartilhar relatorio 
+  ☐ Ao adicionar o painel ele insere o tamanho 
+  ☐ colocar painel com wysiwyg https://foxythemes.net/preview/products/amaretti-v1.4.1/form-wysiwyg.php 
+  ☐ Visualizar na tela de dashboard 
+  ☐ Fazer metrica(Coluna valor > 5000)
+  ☐ Fazer um filtro antes, pq senao vai trazer muita coisa(1 milhao de linhas) ou coloca paginação(Smart table com intervalo de data)
+  ☐ Multiplos graficos em uma tela (http://krispo.github.io/angular-nvd3/#/lineChart)
+  ☐ injetar o arquivo deletar.js
+  ☐ SOMENTE O EULER TEM PERMISSAO PARA FAZER RELATORIO, APOS FAZER O RELATORIO MANDA PARA A PESSOA.
 
 
 
