@@ -24,6 +24,7 @@ Relatorios:
 Vantagen:
   -Unificação das bases de dados(shankya + sgf + sol)
   Prioridade Baixa(Deixar no layt para apresentar mesmo não funcionado):
+  ☐ Fazer uma planilha com a tabela veiculos
   ☐ Ao clicar vai para o CRC 
   ☐ ZOOM IN, ZOOM OUT 
   ☐ Adicionar os filtros no relatorio(por exemplo transportadora)
