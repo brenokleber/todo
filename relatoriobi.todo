@@ -4,23 +4,31 @@ Relatorios:
   ✔ Levantar frameworks graficos que possuem suporte para ionic - Angular-nvD3 @prioridade baixa @done (18-01-20 17:41)
   ☐ Pesquisar grafico de venda , receita x custo, distribuição
   ☐ MVP 
-    - Colocar D3 dentro do angular
-    - CUBO:Serviço especial (usuario escolhe as colunas)
-    - Grafico de barra 
+    - Abrir um modal ao clicar no filter
+    ✔ Colocar D3 dentro do angular @done (18-01-21 09:45)
+    ✔ CUBO:Serviço especial (usuario escolhe as colunas) @done (18-01-21 09:45)
+    ✔ Grafico de barra @done (18-01-21 09:45)
     - agrupar por qualquer coluna
     - Criação da dashboard: https://www.youtube.com/watch?v=MF4-7oZYab0&t=2m45s
     - Dashboard: http://wrapbootstrap.com/preview/WB0696K5S
     - Fixar a quantidade de espaço para graficos
     - Colocar a mudança de escopo de serviço especial
     - D3 bib :http://krispo.github.io/angular-nvd3/#/quickstart
+
   ☐ Depois de fazer o MVp pensar na apresentaçao e depois fazer
     - Alguem inseriu algo no mes passado(dataReg)? mandar um email 
     - Alguem inseriu um crc com preço errado? prestador errado?
     - Custo por cliente do carro
-    - Cliente vem reclamar que ta muito caro() mostra o custo.
+    - Cliente vem reclamar que ta muito caro() mostra o custo. achar outras informações quando a transportadora reclamar
 Vantagen:
   -Unificação das bases de dados(shankya + sgf + sol)
+  - Quando a transportadora chegava para auemntar o preço alguem pecisa fazer um relatorio assim nao precisa mais
+  - Cada pessoa tem seu dado(rodrigo chama de ilha), dessa forma agrupa todos os dados
+
   Prioridade Baixa(Deixar no layt para apresentar mesmo não funcionado):
+  ☐ Organizar as colunas
+  ☐ Colocar mapa 
+  ☐ Fazer group by
   ☐ Ao clicar vai para o CRC 
   ☐ ZOOM IN, ZOOM OUT 
   ☐ Adicionar os filtros no relatorio(por exemplo transportadora)
@@ -40,6 +48,8 @@ Vantagen:
   ☐ SOMENTE O EULER TEM PERMISSAO PARA FAZER RELATORIO, APOS FAZER O RELATORIO MANDA PARA A PESSOA.
   ☐ Colocar o options dentro do banco e quando for chamar ele, buscar do banco, assim e possivel fazer um parser nele
   ☐ Exportar para excel
+  ☐ Curva ABC - http://bl.ocks.org/daluu/d43ec5e610dd5dedbbe1
+  ☐ Grafico filtrar a planilha
 
   Criação da dashboard: https://www.youtube.com/watch?v=MF4-7oZYab0&t=2m45s :
     ☐ Colocar o link
@@ -116,3 +126,8 @@ Vantagen:
 
       Relatório analítico de vendas - CT-e SOL 2.0:
 
+
+
+
+Fazer a curva ABC por receita cliente:
+  ☐ Faz o menu esquerdo com uma drop lista com os cubos
