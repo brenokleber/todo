@@ -1,8 +1,9 @@
 Minuta:
   ☐ Cidade destinatario esta errado, estado
+
 Faturamento:
   ☐ Utilizar painel para o agrupamento interno dos accordions.
-  ☐ Diretiva editar campo esta com problema
+  ☐ Diretiva editar campo esta com problema (https://stackoverflow.com/questions/26964444/add-remove-input-boxes-to-the-table-row-in-angular-dynamically)
   ☐ (PRODUÇÃO) Voltar com as permissoes de editar em faturamento.(Grupos:DIRETORIA, MASTER, OPERACIONAL IV) 
   ☐ Colocar um agurde no botão de gerar fatura e travar tudo
   ☐ Verificar se o campo data vencimento esta buscando certo.
@@ -12,7 +13,6 @@ Faturamento:
   ☐ Simplificar o codigo de data em visualizar.js
   ☐ Buscar todos console.log
   ☐ O menu de faturamento quando não tem nenhum aparece vazio(dashboard.js)
-
   
 Faturamento Cliente:
   ☐ A estrutura soma e o cliente tb soma, fazer o sql trazer o total.

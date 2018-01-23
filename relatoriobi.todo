@@ -20,6 +20,10 @@ Relatorios:
     - Alguem inseriu um crc com preço errado? prestador errado?
     - Custo por cliente do carro
     - Cliente vem reclamar que ta muito caro() mostra o custo. achar outras informações quando a transportadora reclamar
+    - Cliente vem reclamar que ta muito caro() mostra o custo.
+    - Curva ABC(https://pt.stackoverflow.com/questions/131869/como-funciona-o-select-sumif)
+    - Evoluçao de uma variavel no tempo
+    
 Vantagen:
   -Unificação das bases de dados(shankya + sgf + sol)
   - Quando a transportadora chegava para auemntar o preço alguem pecisa fazer um relatorio assim nao precisa mais
@@ -29,6 +33,7 @@ Vantagen:
   ☐ Organizar as colunas
   ☐ Colocar mapa 
   ☐ Fazer group by
+  ☐ Fazer uma planilha com a tabela veiculos
   ☐ Ao clicar vai para o CRC 
   ☐ ZOOM IN, ZOOM OUT 
   ☐ Adicionar os filtros no relatorio(por exemplo transportadora)
