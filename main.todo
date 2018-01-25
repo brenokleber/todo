@@ -32,6 +32,9 @@ Faturamento Fornecedor:
 Faturamento Transportadora:
   ☐ Na tela visualizar quando editar coleta atualizar o total
   ☐ Tem um neogcio de XML que o rafale falou que ia fazer
+  ☐ Tela visualzar:O endpoit que traz todas as transportadores de CRC nao pode ter essa restriçao na clausula WHERE:AND lan_remessa_prestador.faturamento_id IS NULL);
+  ☐ Olhar Fatura tb : Tela visualzar:O endpoit que traz todas as transportadores de CRC nao pode ter essa restriçao na clausula WHERE:AND lan_remessa_prestador.faturamento_id IS NULL);
+
 
 Faturamento Transportadora:
   ☐ Remover os enpoints que buscam a transportadora e usar o da remessa.
