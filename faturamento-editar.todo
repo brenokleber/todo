@@ -1,0 +1,34 @@
+ Faturamento Fornecedor: editar CRC, servico especial e remuneracao SOL:
+   ✔ [Amaretti] Colocar um icone a direita do campo que pode ser editado @done (18-01-23 16:22)
+     ✔ Link amarreti: https://foxythemes.net/preview/products/amaretti-v1.4.1/tables-datatables.php @done (18-01-23 16:22)
+     ✔ Colocar um espacamento entro o valor e o botao @done (18-01-23 16:22)
+     ✔ Colocar o botao da cor azul @done (18-01-23 16:22)
+   ✔ [Amaretti] Colocar um campo com input(text) @done (18-01-23 16:42)
+   ✔ GBC-TD nao funciona com o icone editar, colocar no style @done (18-01-23 16:23)
+   ✔ Campo com input(text) deve receber diretiva para real @done (18-01-23 16:42)
+   ✔ O icone que edita chama uma funcao mostrarInput(tipo, id, valor), mostra o campo input e oculta o valor @done (18-01-23 18:18)
+   ✔ Funcao que envia para o endpoint o valor novo: @done (18-01-23 18:18)
+     ✔ valida se e um numero @done (18-01-23 19:10)
+     ✔ Valida se o numero e igual ao que esta entao chama o endpoint @done (18-01-23 19:11)
+     ✔ Tira o input e volta com o valor @done (18-01-23 19:11)
+     ✔ ng-if permission @done (18-01-23 18:36)
+   ✔ Testar mandar valores incorretos para coluna valor, pq parece que ele coloca zero @done (18-01-23 19:11)
+   ✔ controller:168 finalizado:"s" @done (18-01-23 18:36)
+   ✔ Atuliza o valor total? @done (18-01-23 19:11)
+   ✔ Preciso notification quando da erro? @done (18-01-23 19:21)
+   ✔ Verifcar faturamento_marca de crc e ss @done (18-01-23 21:20)
+   ✔ Atulizar o total da tabela @done (18-01-23 19:21)
+   ✔ CRC ou ss tem o nome da coluna diferente, ta errado no controller @done (18-01-23 19:21)
+   ✔ Fazer a operação de editar 2 vezes no mesmo valor @done (18-01-23 19:11)
+
+<td ng-show="!conjunto_x_elementos_x.editarValor" style="text-align: right;"> {{conjunto_x_elementos_x.valor | real}}
+   <button style="margin-left: 5px;" ng-if="permissions.api.editar_faturamento.alterar === 'Sim'" ng-click="editarValor(conjunto_x_elementos_x)" type="button" class="btn btn btn-default btn-xs ">
+      <i class="icon s7-pen"></i>
+   </button> 
+</td>
+
+<td ng-show="conjunto_x_elementos_x.editarValor && permissions.api.editar_faturamento.alterar === 'Sim'" style="padding-right: 10px; padding-top: 4px;padding-bottom: 4px;">
+   <div style="width: 140px;margin-right: 0px;margin-left: auto;" class="input-group ">
+      <input style="border-top-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-right-width: 1px;" ng-model="conjunto_x_elementos_x.valor" type="text" class="form-control input-sm" ui-number-mask="" ><span ng-click="salvarValor(conjunto_x_elementos_x)" style="font-size: 15px;    padding: 0 9px;" class="input-group-addon btn-default"><i class="icon-th s7-check"></i></span>
+   </div>
+</td>
