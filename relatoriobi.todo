@@ -1,5 +1,5 @@
 Relatorios:
-
+  ☐ [INF] Quando faz o faturamento da transportadora algumas informaçoes do CRC são consertadas
   ✔ Levantar todas as variaveis dos relatios. @prioridade alta @done (18-01-20 17:36)
   ✔ Levantar frameworks graficos que possuem suporte para ionic - Angular-nvD3 @prioridade baixa @done (18-01-20 17:41)
   ☐ Pesquisar grafico de venda , receita x custo, distribuição
