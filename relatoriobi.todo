@@ -1,3 +1,20 @@
+apresentaçaõ:
+  ☐ Ilha(excel)
+  ☐ Monitoramento(dashboard) - socket io
+    ☐ Prestador crc
+    ☐ faturamento transportadora
+  ☐ Datareg - Quando um registro e cridao para nao fecvhar o mes e aparecer coisa louca
+  ☐ Pesquisar grafico de venda , receita x custo, distribuição
+  ☐ Biblioteca chart.js
+  ☐ Euer vai administrar quem pode acessar o que
+  ☐ Tem mais usuario no sol do que no sankhya
+ ☐ Cliente vem reclamar que ta muito caro() mostra o custo. achar outras informações quando a transportadora reclamar
+ ☐ Cliente vem reclamar que ta muito caro() mostra o custo.
+ ☐ Curva ABC(https://pt.stackoverflow.com/questions/131869/como-funciona-o-select-sumif)
+ ☐ Evoluçao de uma variavel no tempo
+ ☐ mapa
+ ☐ curva ABC
+
 Relatorios:
   ☐ [INF] Quando faz o faturamento da transportadora algumas informaçoes do CRC são consertadas
   ✔ Levantar todas as variaveis dos relatios. @prioridade alta @done (18-01-20 17:36)
