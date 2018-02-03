@@ -1,0 +1,7 @@
+ ✔ Faturamento Cliente:  Não esta marcando o checkbox. @done (18-02-02 09:36)
+ ✔ Faturamento prestador sem CRC @done (18-02-02 10:19)
+ ✔ Faturamento transportadora localidade destino errado @done (18-02-02 15:34)
+ ☐ Faturamento agregado:gbc td -> "participante adicionado com sucesso"
+ ☐ Faturamento prestador, tela consulta filtro prestador
+ ☐ Faturamento cliente: Tela filtro , digitar no autocomplete coisa que nao existe e apertar ENTER
+   ☐ Olhar Todos faturamentos que tem isso

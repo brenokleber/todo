@@ -29,44 +29,400 @@ Layout:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ORGANIZAR A PARTE DE BAIXO:
 Relatorios:
+=======
+Planejamento - Menu da esquerda:
+  - Criar uma tabela com os metadados
+    - Tabela metadados  (nome, tipo, json, sql)
+      - json:
+        - vazio ------- -1
+        - enum --------- 0
+        - data --------- 1
+        - dinheiro ----- 2
+        - hora --------- 3
+        - lista -------- 4
+        - peso --------- 5
+        - metrica ------ 6 //fn:0, //sum,max,min,avg
+        - filtro ------- 7
 
+
+      var cubo = [{
+        coluna: "id",
+        alias: "CRC",
+        tipo: -1
+      }, {
+        coluna: "origem",
+        alias: "Oridem do CRC",
+        enum: [{
+          sigla: "r",
+          nome: "Remessa"
+        }, {
+          sigla: "c",
+          nome: "CRC"
+        }],
+        tipo: 0
+      }, {
+        coluna: "finalizado_remessa",
+        alias: "Remessa finalizada?",
+        enum: [{
+          sigla: "s",
+          nome: "Sim"
+        }, {
+          sigla: "n",
+          nome: "Não"
+        }],
+        tipo: 0
+      }, {
+        coluna: "finalizado_crc",
+        alias: "CRC finalizado ?",
+        enum: [{
+          sigla: "s",
+          nome: "Sim"
+        }, {
+          sigla: "n",
+          nome: "Não"
+        }],
+        tipo: 0
+      }, {
+        coluna: "documento_fiscal",
+        alias: "Documento Fiscal",
+        enum: [{
+          sigla: "n",
+          nome: "NFS-e"
+        }, {
+          sigla: "c",
+          nome: "CT-e"
+        }],
+        tipo: 0
+      }, {
+        coluna: "setor",
+        colunaKey: "setor_id",
+        alias: "Setor",
+        lista: {
+          tabela: "setor",
+          coluna: ["nome"],
+          where: ["checkbox = 's'"]
+        },
+        tipo: 4
+      }, {
+        colunaKey: "cliente_id",
+        coluna: "cliente",
+        alias: "Cliente"
+        lista: {
+          tabela: "participante",
+          coluna: ["nome"],
+          where: ["cliente = 's'"]
+        },
+        tipo: 4
+      }, {
+        coluna:"cidade",
+        colunaKey: "localidade_id",
+        alias: "Cidade",
+        lista: {
+          tabela: "localidade",
+          coluna: ["cidade"]
+        },
+        tipo: 4
+      }, {
+        coluna: "estado",
+        alias: "Estado",
+        colunaKey: "estado_id",
+        lista: {
+          tabela: "estado",
+          coluna: ["nome"]
+        },
+        tipo: 4
+      }, {
+        coluna: "remessa_id",
+        alias: "Remessa",
+        tipo: -1
+      }, {
+        colunaKey: "destinatario_id",
+        coluna:"destinatario",
+        alias: "Destinatário",
+        lista: {
+          tabela: "participante",
+          coluna: ["nome"],
+          where: ["cliente = 's'"]
+        },
+        tipo: 4
+      }, {
+        colunaKey: "entrega_id",
+        coluna: "entrega",
+        alias: "Entrega",
+        lista: {
+          tabela: "registro",
+          coluna: ["nome"],
+          where: ["tipo = 'entrega'"]
+        },
+        tipo: 4
+      }, {
+        colunaKey: "pagamento_id",
+        alias: "Pagamento",
+        coluna: "pagamento",
+        lista: {
+          tabela: "registro",
+          coluna: ["nome"],
+          where: ["tipo = 'pagamento'"]
+        },
+        tipo: 4
+      }, {
+        coluna: "tarifa_id", 
+        alias: "Tarifa",
+        lista: {
+          tabela: "tarifa_nome",
+          coluna: ["nome"]
+        },
+        tipo: 4
+      }, {
+        coluna: "dataremessa",
+        data: null,
+        tipo: 1
+      }, {
+        coluna: "horacoleta",
+        hora: null,
+        tipo: 3
+      }, {
+        coluna: "horaemissao",
+        hora: null,
+        tipo: 3
+      }, {
+        colunaKey: "prazo_id",
+        coluna:"prazo"
+        alias: "Prazo",
+        lista: {
+          tabela: "registro",
+          coluna: ["nome"],
+          where: ["tipo = 'entrega'"]
+        },
+        tipo: 4
+      }, {
+        coluna: "dataentrega_prevista",
+        data: null,
+        tipo: 1
+      }, {
+        coluna: "horaentrega_realizada",
+        hora: null,
+        tipo: 3
+      }, {
+        coluna: "volumes",
+        alias: "Volumes",
+        tipo: -1
+      }, {
+        coluna: "pesoreal",
+        peso: null,
+        tipo: 5
+      }, {
+        coluna: "pesotaxado",
+        peso: null,
+        tipo: 5
+      }, {
+        coluna: "nota_fiscal",
+        alias: "Nota Fiscal",
+        tipo: -1
+      }, {
+        coluna: "valor_declarado",
+        tipo: 2
+      }, {
+        coluna: "valor_envio",
+        alias: "Valor do Envio",
+        dinheiro: null,
+        tipo: 2
+      }, {
+        colunaKey: "conteudo_id",
+        coluna: "conteudo",
+        alias: "Conteúdo",
+        lista: {
+          tabela: "registro",
+          coluna: ["nome"],
+          where: ["tipo = 'conteudo'"]
+        },
+        tipo: 4
+      }, {
+        colunaKey: "embalagem_id",
+        coluna: "embalagem",
+        alias: "Embalagem",
+        lista: {
+          tabela: "registro",
+          coluna: ["nome"],
+          where: ["tipo = 'emabalagem'"]
+        },
+        tipo: 4
+      }, {
+        coluna: "responsavel_remessa",
+        alias: "Responsável Remessa",
+        lista: {
+          tabela: "user",
+          coluna: ["nome"]
+        },
+        tipo: 4
+      }, {
+        coluna: "responsavel_crc",
+        alias: "Responsável CRC",
+        lista: {
+          tabela: "user",
+          coluna: ["nome"]
+        },
+        tipo: 4
+      }, {
+        coluna: "responsavel_entrega",
+        alias: "Responsável Entega",
+        lista: {
+          tabela: "user",
+          coluna: ["name"]
+        },
+        tipo: 4
+      }, {
+        coluna: "comprovante",
+        tipo: -1
+      }, {
+        coluna: "recebedor_nome",
+        tipo: -1
+      }, {
+        coluna: "recebedor_doc_tipo",
+        enum: [{
+          sigla: "c",
+          nome: "C"
+        }, {
+          sigla: "r",
+          nome: "R"
+        }, {
+          sigla: "m",
+          nome: "M"
+        }],
+        tipo: 0
+      }, {
+        coluna: "recebedor_doc",
+        tipo: -1
+      }, {
+        coluna: "obs_remessa",
+        alias: "Observações para Remessa",
+        tipo: -1
+      }, {
+        coluna: "obs_crc",
+        alias: "Observações para CRC",
+        tipo: -1
+      }, {
+        coluna: "obs_entrega",
+        alias: "Observações",
+        tipo: -1
+      }, {
+        coluna: "faturamento_id",
+        lista: {
+          tabela: "faturamento",
+          coluna: ["fatura"],
+          where: ["tipo = 'c'"]
+        },
+        tipo: 4
+      }, {
+        coluna: "dataReg",
+        alias: "Data de criação",
+        data: null,
+        tipo: 1
+      }, {
+        metrica: "m1",
+        fn: 0,
+        tipo: 6
+      }];
+
+
+sql:
+  SELECT 
+  lan_remessa.localidade_id,
+    lan_remessa.id,
+    lan_remessa.origem,
+    lan_remessa.finalizado_remessa,
+    lan_remessa.finalizado_crc,
+    lan_remessa.documento_fiscal,
+    lan_remessa.setor_id,
+    lan_remessa.cliente_id,
+    lan_remessa.localidade_id,
+    lan_remessa.remessa_id,
+    lan_remessa.destinatario_id,
+    lan_remessa.entrega_id,
+    lan_remessa.pagamento_id,
+    lan_remessa.tarifa_id,
+    lan_remessa.dataremessa,
+    lan_remessa.horacoleta,
+    lan_remessa.horaemissao,
+    lan_remessa.prazo as prazo_id,
+    lan_remessa.dataentrega_prevista,
+    lan_remessa.horaentrega_realizada,
+    lan_remessa.volumes,
+    lan_remessa.pesoreal,
+    lan_remessa.pesotaxado,
+    lan_remessa.nota_fiscal,
+    lan_remessa.valor_declarado,
+    lan_remessa.valor_envio,
+    lan_remessa.conteudo_id,
+    lan_remessa.embalagem_id,
+    lan_remessa.responsavel_remessa,
+    lan_remessa.responsavel_crc,
+    lan_remessa.responsavel_entrega,
+    lan_remessa.comprovante,
+    lan_remessa.recebedor_nome,
+    lan_remessa.recebedor_doc_tipo,
+    lan_remessa.recebedor_doc,
+    lan_remessa.obs_remessa,
+    lan_remessa.obs_crc,
+    lan_remessa.obs_entrega,
+    lan_remessa.faturamento_id,
+    lan_remessa.faturamento_marca,
+    lan_remessa.dataReg,
+    setor.nome as setor,
+    cliente.nome as cliente,
+    localidade.estado_id,
+    estado.nome as estado,
+    destinatario.nome as destinatario,
+    entrega.nome as entrega,
+    pagamento.nome as pagamento,
+    prazo.nome as prazo,
+    conteudo.nome as conteudo,
+    embalagem.nome as embalagem,
+    tarifa_nome.nome as tarifa
+FROM
+    lan_remessa
+INNER JOIN setor ON setor.id = lan_remessa.setor_id
+INNER JOIN participante cliente ON cliente.id = lan_remessa.cliente_id
+INNER JOIN localidade ON localidade.id = lan_remessa.localidade_id
+INNER JOIN estado ON estado.id = localidade.estado_id
+INNER JOIN participante destinatario ON destinatario.id = lan_remessa.destinatario_id
+INNER JOIN registro entrega ON entrega.id = lan_remessa.entrega_id
+INNER JOIN registro pagamento ON pagamento.id = lan_remessa.pagamento_id
+INNER JOIN registro prazo ON prazo.id = lan_remessa.prazo
+INNER JOIN registro conteudo ON conteudo.id = lan_remessa.conteudo_id
+INNER JOIN registro embalagem ON embalagem.id = lan_remessa.embalagem_id
+INNER JOIN tarifa ON tarifa.id = lan_remessa.tarifa_id
+INNER JOIN tarifa_nome ON tarifa.tarifa_nome_id = tarifa_nome.id;
+
+
+Futuro:
+  ☐ Remover linha especifica
+
+
+
+
+
+apresentaçaõ:
+  ☐ Ilha(excel)
+  ☐ Monitoramento(dashboard) - socket io
+    ☐ Prestador crc
+    ☐ faturamento transportadora
+  ☐ Datareg - Quando um registro e cridao para nao fecvhar o mes e aparecer coisa louca
+  ☐ Pesquisar grafico de venda , receita x custo, distribuição
+  ☐ Biblioteca chart.js
+  ☐ Euer vai administrar quem pode acessar o que
+  ☐ Tem mais usuario no sol do que no sankhya
+ ☐ Cliente vem reclamar que ta muito caro() mostra o custo. achar outras informações quando a transportadora reclamar
+ ☐ Cliente vem reclamar que ta muito caro() mostra o custo.
+ ☐ Curva ABC(https://pt.stackoverflow.com/questions/131869/como-funciona-o-select-sumif)
+ ☐ Evoluçao de uma variavel no tempo
+ ☐ mapa
+ ☐ curva ABC
+
+Relatorios:
+  ☐ [INF] Quando faz o faturamento da transportadora algumas informaçoes do CRC são consertadas
   ✔ Levantar todas as variaveis dos relatios. @prioridade alta @done (18-01-20 17:36)
   ✔ Levantar frameworks graficos que possuem suporte para ionic - Angular-nvD3 @prioridade baixa @done (18-01-20 17:41)
   ☐ Pesquisar grafico de venda , receita x custo, distribuição
