@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/brenokleber/.android/build-cache/082b04c3676eb17fd8695f8691286273ba1dc1dd/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/brenokleber/.android/build-cache/082b04c3676eb17fd8695f8691286273ba1dc1dd/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/brenokleber/.android/build-cache/082b04c3676eb17fd8695f8691286273ba1dc1dd/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/brenokleber/.android/build-cache/082b04c3676eb17fd8695f8691286273ba1dc1dd/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/brenokleber/.android/build-cache/082b04c3676eb17fd8695f8691286273ba1dc1dd/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/brenokleber/.android/build-cache/082b04c3676eb17fd8695f8691286273ba1dc1dd/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

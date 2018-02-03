@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/brenokleber/.android/build-cache/3d58c76709ceac4e8dc488560a9d1bf2fb22aa37/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/brenokleber/.android/build-cache/3d58c76709ceac4e8dc488560a9d1bf2fb22aa37/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

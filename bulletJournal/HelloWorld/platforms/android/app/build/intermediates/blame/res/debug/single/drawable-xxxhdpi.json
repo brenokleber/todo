@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/background.png",
+        "source": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/src/main/res/drawable-xxxhdpi/background.png"
+    },
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    }
+]

@@ -1,8 +1,12 @@
 Pratico:
-   ☐ Configurar native script https://tomkarho.com/installation-of-nativescript-on-arch-linux/
-   ☐ Fazer um hello world no native script @hello_world
+   ✔ Configurar native script https://tomkarho.com/installation-of-nativescript-on-arch-linux/ @done (18-01-25 19:01)
+   ☐ Fazer hello world com angular 2 https://angular.io/guide/quickstart
+   ☐ fazer um angular2 consumir meu rest
+   ✔ Install android studio https://www.youtube.com/watch?v=sjgb2iTjr_0 @done (18-01-25 20:49)
+   ✔ Fazer um hello world no native script https://docs.nativescript.org/angular/tutorial/ng-chapter-1 @HelloWorld @done (18-01-25 20:49)
+   ☐ Fazer todo list com angular 2
    ☐ Hospedagem docker
-   ☐ Restfull nodejs: https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd @todoListApi
+   ✔ Restfull nodejs: https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd @todoListApi @done (18-01-25 19:15)
      ✔ mongodb - https://thedarkoznet.wordpress.com/2017/03/28/how-to-install-mongodb-in-manjaro-linux/ @done (18-01-25 18:33)
 
 Estudo:
@@ -13,3 +17,10 @@ Estudo:
 
 Bullet Jounal:
   ☐ Assitir o video original
+
+
+
+OBS:
+  ☐ sudo systemctl start mongodb
+  ☐ npm run start
+  ☐ LD_PRELOAD='./usr/lib/libstdc++.so.6' ~/Android/Sdk/tools/emulator -netdelay none -netspeed full -avd Nexus_One_API_22

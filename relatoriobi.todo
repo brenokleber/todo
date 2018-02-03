@@ -1,3 +1,70 @@
+Planejamento:
+  ☐ Fazer um mockup
+  ☐ Fazer uma estrutura para o WHERE
+  ☐ Problema: Listar todos os crc que aconteceram em um intervalo
+
+✔ v0:Fazer um hello world com a framework angular-chart.js: @done (18-01-28 13:02)
+  - URL: http://localhost:8080/sol/relatorios/v0
+  - http://jtblin.github.io/angular-chart.js/#reactive
+  - public/sol/relatorios/cliente/teste-chart.js
+  - public/sol/relatorios/cliente/teste-chart.html
+
+v1: Listar todos os crc que aconteceram:
+  - URL: http://localhost:8080/sol/relatorios/v1
+  ✔ Fazer um select com lan_remessa(ENDPOINT) @done (18-01-28 13:45)
+      SELECT 
+          lr.id as crc, p.id as cliente_numero, p.nome as cliente_nome
+      FROM 
+          lan_remessa lr 
+              INNER JOIN 
+          participante p ON lr.cliente_id = p.id 
+       WHERE p.id = 18; 
+      
+  ✔ Fazer uma estrutura do select @done (18-01-28 18:45)
+
+
+Layout:
+  - Escolher o CUBO
+    - Escolher as colunas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ORGANIZAR A PARTE DE BAIXO:
 Relatorios:
 
   ✔ Levantar todas as variaveis dos relatios. @prioridade alta @done (18-01-20 17:36)

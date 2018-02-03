@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/9036c6bd25b26532932e65be68aad93d993526ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_8a7ddc2992e5a784fb7d93c5333a22e6f2a9e2f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/afe7b617ec6b0c1607dd4ee738b9f61f3c4cea21/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_14bd222ab358c8d16a47e74a447d53f25667d317.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/863b54b4b0560e1ce6934fff5ce878d1081ce31d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_0bd700021e8c0a758a7d66e995720886e2a26fa8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/65213ca0fdfba019901eadfde7d9fd187d5f0ae4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_0bb4b90261e93fd11fb88dfdf91f7f4c28871ed7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/9e7c4ecb31c0e3e754627aba63d779d53489aeec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_5f946855d4a0e0768cd5cf54f2a696e27835ede2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_5ee77d16b8bc1a2a5d8fb1535e43149d27681edf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/50defe558e17a5f081b3996965eafa6181091134/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_84052e635fc5028f381d550ecb5ed9ee16f3352c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/082b04c3676eb17fd8695f8691286273ba1dc1dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_d93d817ca1741bea076b49e4a3feca8909e311b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/d68fc2e79a8f967d06bc0af8e4bacf939c363bbd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_9007e2d75bbfce20874d97025418f4804c6dff13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/3d58c76709ceac4e8dc488560a9d1bf2fb22aa37/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_a839c80045cf3868857ce3c66b719d43218518bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/72749ba0d7694d62cd904c93aa121f6568064c48/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_fc9772f38d4f5b3371bfc5b87f9317a579f159a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/365b5187291619c69503adfd264d03fce0f28ba2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_de25eb3c0b9b7fa888848d8056265a5c2132102a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/dbab05b4a854f38dc2c910d5f8cb7e3d57550ab5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_fdd03d5539aeb888e956111b69cd92b675e1cb7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/4636de36e39042e2a6a964f213dce9c07258ca52/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_3c4f5b05b2e66c1cd80eab8df73042c46a9a996d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenokleber/.android/build-cache/85bc2a4cd0be17ad550a8647eaed9fe2747a0ceb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/brenokleber/todo/bulletJournal/HelloWorld/platforms/android/app/build/intermediates/pre-dexed/debug/classes_ae1879b872b20e5077e55dc6ae1aea96022ba92b.jar" />
+    </item>
+
+</items>
